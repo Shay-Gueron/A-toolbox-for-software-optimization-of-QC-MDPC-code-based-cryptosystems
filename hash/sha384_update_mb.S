@@ -4,7 +4,10 @@
 # (drucker.nir@gmail.com, shay.gueron@gmail.com)
 # The license is detailed in the file LICENSE.md, and applies to this file.
 #
-# See: https://mta.openssl.org/pipermail/openssl-dev/2016-August/008238.html
+# Multi block SHA384 AVX2/AVX512 is due to: 
+# "Multi Block (MB) SHA384 for x86_64 architectures that support 
+# AVX2/AVX512 instructions set" by S. Gueron and R. Shemy at
+# https://mta.openssl.org/pipermail/openssl-dev/2016-August/008238.html
 ##############################################################################
 
 .text
